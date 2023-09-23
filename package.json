@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && ng build",
+    "start": "ng serve",
+    "build": "ng build",
     "client:deploy": "sls client deploy --no-config-change --no-policy-change --no-cors-change",
     "cloudfront:deploy": "serverless deploy",
     "cloudfront:sync": "serverless syncToS3",
